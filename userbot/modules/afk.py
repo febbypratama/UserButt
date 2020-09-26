@@ -57,7 +57,7 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(
-            f"**Into the Void!**\
+            f"**Going AFK!**\
         \nReason: `{string}`"
         )
     else:
